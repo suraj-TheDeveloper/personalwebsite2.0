@@ -1,0 +1,78 @@
+@media only screen and (min-width: 600px) {
+    .heading-font {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-top: 130px;
+        font-size: 40px;
+        color: white;
+    }
+    .contact-links {
+        margin-top: 160px;
+    }
+    .sub-heading {
+        color: white;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .heading-font {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-top: 130px;
+        font-size: 40px;
+        color: white;
+    }
+    .contact-links {
+        margin-top: 160px;
+    }
+    .sub-heading {
+        color: white;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .heading-font {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-top: 300px;
+        font-size: 40px;
+        color: white;
+    }
+    .sub-heading {
+        color: white;
+    }
+    .side-bar {
+        float: left;
+        margin-top: -70px;
+    }
+    .contact-links {
+        margin-top: 230px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .heading-font {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-top: 300px;
+        font-size: 40px;
+        color: white;
+    }
+    .side-bar {
+        float: left;
+        margin-top: -70px;
+    }
+    .sub-heading {
+        color: white;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .heading-font {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-top: 165px;
+        font-size: 60px;
+        color: white;
+    }
+    .side-bar {
+        float: left;
+        margin-top: -70px;
+        line-height: 40px;
+        margin-left: 450px;
+    }
+    .sub-heading {
+        color: white;
+    }
+}
