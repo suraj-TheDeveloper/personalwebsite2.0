@@ -1,48 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: navfont;
+    src: url("../fonts/MerriMuli/Merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+    font-family: navlinkfont;
+    src: url("../fonts/MerriMuli/Muli/Muli-Light.ttf");
+}
+@font-face {
+    font-family: headingfont;
+    src: url('../fonts/WorkOpen/WorkSans/WorkSans-Light.ttf');
+}
+@font-face {
+    font-family: subheading;
+    src: url('../fonts/WorkOpen/OpenSans/OpenSans-Regular.ttf');
+}
+.brand {
+    font-family: navfont;
+}
+.nav-link {
+    font-family: navlinkfont;
+}
+.icons {
+    text-align: center;
+    margin-top: 220px;
+    padding-bottom: 20px;
+}
+.fab {
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+.about-us-title {
+    padding-top: 30px;
+    font-family: headingfont;
+    font-size: 40px;
+}
+.about-us-para {
+    font-family: subheading;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 10px 10px;
+}
+.fa-mobile-alt {
+    font-size: 130px;
+    padding: 30px;
+}
+.fa-desktop {
+    font-size: 130px;
+    padding: 30px;
+}
+.footer{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+    transform: translate(40%, 5%)
+}
+@media (max-width: 576px) { 
+    .strong-heading {
+        font-size : 30px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
+    }
+    .sub-heading {
+        font-size: 20px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 20px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
+    }
+ }
+
 @media (min-width: 576px) { 
     .strong-heading {
-        font-size : 70px;
+        font-size : 30px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
     }
     .sub-heading {
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 20px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
     }
  }
-
-/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .strong-heading {
-        font-size : 70px;
+        font-size : 60px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
     }
     .sub-heading {
         font-size: 30px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 60px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
     }
  }
-
-/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .strong-heading {
-        font-size : 70px;
+        font-size : 60px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
     }
     .sub-heading {
         font-size: 30px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 60px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 60px;
     }
  }
-
-/* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .strong-heading {
-        font-size : 70px;
+        font-size : 60px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
     }
     .sub-heading {
         font-size: 30px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 60px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 60px;
     }
  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
     .strong-heading {
-        font-size : 70px;
+        font-size : 60px;
+        text-align: center;
+        font-family: headingfont;
+        margin-top: 250px;
     }
     .sub-heading {
         font-size: 30px;
+        text-align: center;
+        font-family: subheading;
+    }
+    .about-us {
+        width: 100%;
+        min-height: 200px;
+        background-color: white;
+        padding: 60px;
+    }
+    .resume {
+        width: 100%;
+        min-height: 200px;
+        padding: 60px;
     }
  }
