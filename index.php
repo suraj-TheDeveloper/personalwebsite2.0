@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Personal Website</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
         <link href="style/css/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet">
 
         <!-- CSS Files -->
-        <link href="style/css/main.css" type="text/css" rel="stylesheet">
+        <link href="style/css/main.css?v=5fefr" type="text/css" rel="stylesheet">
 
         <!-- Latest compiled JavaScript -->
         <script src="style/css/bootstrap-5.0.2/js/bootstrap.js"></script>
@@ -17,119 +17,41 @@
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
     <style>
-         * {
-            box-sizing: border-box;
-        }
         body {
             background-color: #F0F0F0;
             scroll-behavior: smooth;
         }
-        @font-face {
-            font-family: navfont;
-            src: url("style/fonts/MerriMuli/Merriweather/Merriweather-Regular.ttf");
-        }
-        @font-face {
-            font-family: navlinkfont;
-            src: url("style/fonts/MerriMuli/Muli/Muli-Light.ttf");
-        }
-        @font-face {
-            font-family: headingfont;
-            src: url('style/fonts/WorkOpen/WorkSans/WorkSans-Light.ttf');
-        }
-        @font-face {
-            font-family: subheading;
-            src: url('style/fonts/WorkOpen/OpenSans/OpenSans-Regular.ttf');
-        }
-        .brand {
-            font-family: navfont;
-        }
-        .nav-link {
-            font-family: navlinkfont;
-        }
-        .strong-heading {
-            text-align: center;
-            font-family: headingfont;
-            margin-top: 250px;
-        }
-        .sub-heading {
-            text-align: center;
-            font-family: subheading;
-        }
-        .icons {
-            text-align: center;
-            margin-top: 220px;
-            padding-bottom: 20px;
-        }
-        .fab {
-            padding: 10px 10px;
-            font-size: 20px;
-            cursor: pointer;
-            color: black;
-        }
-        .about-us {
-            width: 100%;
-            min-height: 200px;
-            background-color: white;
-            padding: 60px;
-        }
-        .about-us-title {
-            padding-top: 30px;
-            font-family: headingfont;
-            font-size: 40px; 
-        }
-        .about-us-para {
-            font-family: subheading;
-            line-height: 1.8;
-            text-align: justify;
-            padding: 10px 10px; 
-        }
-        .resume {
-            width: 100%;
-            min-height: 200px;
-            padding: 60px;
-        }
-        .fa-mobile-alt {
-            font-size: 130px;
-            padding: 30px;
-        }
-        .fa-desktop {
-            font-size: 130px;
-            padding: 30px;
-        }
-        .footer{
-            width: 100%;
-            padding: 10px;
-            color: white;
-            background-color: black;
-        }
     </style>
     <body>
-        <nav class="nav navbar-expand-md navbar-light bg-light shadow-lg fixed-top">
-            <a href="#" class="navbar-brand brand">Suraj TheDeveloper</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://thedevelopersuraj.blogspot.com/">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>       
-                </ul>
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top shadow">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" style="color: black;" href="#">Mutha Groups</a> -->
+                <a href="#" class="navbar-brand brand">Suraj TheDeveloper</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span style="color: white;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://thedevelopersuraj.blogspot.com/">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container">
@@ -179,7 +101,7 @@
                         </tr>
                         <tr class="about-us-para">
                             <td>3</td>
-                            <td>B. Sc – Computer Science(Security System Specialization) under subbalakshmi lakshmmipathy college of science</td>
+                            <td>B. Sc - Computer Science(Security System Specialization) under subbalakshmi lakshmmipathy college of science</td>
                             <td>-</td>
                             <td>2021</td>
                         </tr>
@@ -353,17 +275,23 @@
         <div class="about-us" id="services">
             <h1 class="about-us-title text-center">Services I Do</h1>
             <div class="row">
-                <div class="col-md-6">
-                    <center>
-                        <i class="fa fa-mobile-alt"></i>
-                        <h4 class="about-us-para text-center">Mobile App Development (Android/Ios)</h4>
-                    </center>
+                <div class="col-md-4">
+                    <div class="circle">
+                        <img src="style/images/webdesign.png" style="width: 100%;">
+                    </div>
+                    <p class="card-text about-us-para text-center">Web Designing</p>
                 </div>
-                <div class="col-md-6">
-                    <center>
-                            <i class="fas fa-desktop"></i>
-                            <h4 class="about-us-para text-center">Web Development</h4>
-                    </center>
+                <div class="col-md-4">
+                    <div class="circle">
+                        <img src="style/images/webdevelopment.png" style="width: 100%;">
+                    </div>
+                    <p class="card-text about-us-para text-center">Web Development</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="circle">
+                        <img src="style/images/hosting.png" style="width: 100%;">
+                    </div>
+                    <p class="card-text about-us-para text-center">Web Hosting</p>
                 </div>
             </div>
         </div>
@@ -372,13 +300,19 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <form action="#" method="POST">
-                        <div class="mb-3 mt-3">
-                            <label class="form-label">Name</label>
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name...">
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email Id...">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name...">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email Id...">
+                                </div>
+                            </div>
                         </div>
                         <div class="mb-3 mt-3">
                             <label class="form-label">Message</label>
