@@ -5,13 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
-        <link href="style/css/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet">
+        <link href="styles/css/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet">
 
         <!-- CSS Files -->
-        <link href="style/css/main.css?v=5fefr" type="text/css" rel="stylesheet">
+        <link href="styles/css/main.css?v=5fefr" type="text/css" rel="stylesheet">
 
         <!-- Latest compiled JavaScript -->
-        <script src="style/css/bootstrap-5.0.2/js/bootstrap.js"></script>
+        <script src="styles/css/bootstrap-5.0.2/js/bootstrap.js"></script>
 
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -277,19 +277,19 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="circle">
-                        <img src="style/images/webdesign.png" style="width: 100%;">
+                        <img src="styles/images/webdesign.png" style="width: 100%;">
                     </div>
                     <p class="card-text about-us-para text-center">Web Designing</p>
                 </div>
                 <div class="col-md-4">
                     <div class="circle">
-                        <img src="style/images/webdevelopment.png" style="width: 100%;">
+                        <img src="styles/images/webdevelopment.png" style="width: 100%;">
                     </div>
                     <p class="card-text about-us-para text-center">Web Development</p>
                 </div>
                 <div class="col-md-4">
                     <div class="circle">
-                        <img src="style/images/hosting.png" style="width: 100%;">
+                        <img src="styles/images/hosting.png" style="width: 100%;">
                     </div>
                     <p class="card-text about-us-para text-center">Web Hosting</p>
                 </div>
